@@ -19,10 +19,15 @@ Gettelman, A., H. Morrison, S. Santos, P. Bogenschutz and P. H. Caldwell. Advanc
 Basic structure:
 
 micro_mg3_0.F90        : core code, includes initialization and timestep routines
+
 micro_mg_utils.F90     : process rate and size distribution functions
+
 micro_mg_data.F90      : extra utilities for CAM
+
 micro_mg_cam.F90       : Interface for the Community Atmosphere Model version 6 (CAM6)
+
 wv_saturation.F90      : CAM water vapor routines
+
 wv_sat_methods.F90
        
 for questions contact Hugh Morrison, Andrew Gettelman e-mail: morrison@ucar.edu, andrew@ucar.edu
